@@ -3,8 +3,7 @@ import { useMemo, useState } from "react"
 import { Link } from "react-router-dom"
 import { Tag } from "../App"
 import ReactSelect from "react-select"
-import {Badge, Card, Stack} from "react-bootstrap"
-import { CloudArrowDownIcon } from "@heroicons/react/16/solid"
+
 
 type SimplifiedNote = {
     id: string;

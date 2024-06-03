@@ -1,6 +1,6 @@
-import React, { FormEvent } from 'react';
+
 import { NoteData, Tag } from '../App';
-import { useRef, useState } from 'react';
+import { FormEvent, useRef, useState } from 'react';
 import CreatableSelect from 'react-select/creatable';
 import { v4 as uuidv4 } from 'uuid';
 import { Link, useNavigate } from 'react-router-dom';
