@@ -9,6 +9,7 @@ import { NoteLayout } from './components/NoteLayout';
 import { Note } from './components/Note';
 import { EditNote } from './components/EditNote';
 
+
 export type Note = {
   id: string
 } & NoteData
@@ -111,10 +112,9 @@ function App() {
           availableTags={tags} />
         } 
         />
-
         <Route path="/:id" element={<NoteLayout notes={notesWithTags} />}>
           <Route index element={<Note onDelete={onDeleteNote}/>} />
-          <Route path="edit" element=     {<EditNote
+          <Route path="edit" element=    {<EditNote
                 onSubmit={onUpdateNote}
                 onAddTag={addTag}
                 availableTags={tags}

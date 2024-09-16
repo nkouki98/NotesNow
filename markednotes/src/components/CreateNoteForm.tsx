@@ -1,4 +1,4 @@
-import React, { FormEvent } from 'react';
+import { FormEvent } from 'react';
 import { NoteData, Tag } from '../App';
 import { useRef, useState } from 'react';
 import CreatableSelect from 'react-select/creatable';
@@ -39,7 +39,7 @@ export function CreateNoteForm({
   return (
     <div className="flex min-h-screen items-center justify-start bg-white">
       <div className="mx-auto w-full max-w-lg">
-        <h1 className="text-4xl font-medium">Create Notes and Mark them with tags.</h1>
+        <h1 className="text-2xl font-medium font-sans mb-4">Create/Edit Notes.</h1>
 
         <form onSubmit={handleSubmit} className="mt-10">
           <div className="grid gap-6 sm:grid-cols-2">
@@ -109,7 +109,7 @@ export function CreateNoteForm({
           </div>
 
           <button type="submit" className="m-2 mt-5 rounded-md bg-black px-10 py-2 text-white">
-            Create Note
+            Submit
           </button>
           <Link to="..">
             <button type="submit" className="m-2 mt-5 rounded-md bg-black px-10 py-2 text-white">

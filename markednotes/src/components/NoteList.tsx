@@ -49,9 +49,9 @@ export function NoteList({
                 Create Note
             </button>
             </Link>
-            <button onClick={() => (true)} type="submit" className="mt-5 rounded-md bg-black px-10 py-2 text-white">
+            {/* <button onClick={() => (true)} type="submit" className="mt-5 rounded-md bg-black px-10 py-2 text-white">
             Edit Tags
-            </button>
+            </button> */}
         </div>
         <h1 className="text-2xl font-bold mt-12">All Notes</h1>
         <div className="flex mt-4 gap-4">
