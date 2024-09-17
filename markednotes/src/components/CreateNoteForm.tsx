@@ -39,7 +39,7 @@ export function CreateNoteForm({
   return (
     <div className="flex min-h-screen items-center justify-start bg-white">
       <div className="mx-auto w-full max-w-lg">
-        <h1 className="text-4xl font-medium">Create Notes and Mark them with tags.</h1>
+        <h1 className="text-4xl font-medium">Create or Edit Notes.</h1>
 
         <form onSubmit={handleSubmit} className="mt-10">
           <div className="grid gap-6 sm:grid-cols-2">
