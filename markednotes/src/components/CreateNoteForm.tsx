@@ -109,7 +109,7 @@ export function CreateNoteForm({
           </div>
 
           <button type="submit" className="m-2 mt-5 rounded-md bg-black px-10 py-2 text-white">
-            Create Note
+          Submit
           </button>
           <Link to="..">
             <button type="submit" className="m-2 mt-5 rounded-md bg-black px-10 py-2 text-white">
